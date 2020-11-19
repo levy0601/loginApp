@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		124DD5062562429000FAEBDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 124DD5052562429000FAEBDF /* GoogleService-Info.plist */; };
 		124DD509256250E600FAEBDF /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124DD508256250E600FAEBDF /* CreateUserViewController.swift */; };
 		12AA4B4E25625C4500B4D81D /* ForgetpasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4B4D25625C4500B4D81D /* ForgetpasswordViewController.swift */; };
 		5CC658278F8C427DE22092AD /* Pods_LoginApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AB1CDF923D095CF4D6B2E6 /* Pods_LoginApp.framework */; };
+		D3634DCE256663D100DB04FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3634DCD256663D100DB04FA /* GoogleService-Info.plist */; };
 		D7096BB7255504D9001E5929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7096BB6255504D9001E5929 /* AppDelegate.swift */; };
 		D7096BB9255504D9001E5929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7096BB8255504D9001E5929 /* SceneDelegate.swift */; };
 		D7096BBB255504D9001E5929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7096BBA255504D9001E5929 /* ViewController.swift */; };
@@ -23,11 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		124DD5052562429000FAEBDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		124DD508256250E600FAEBDF /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
 		12AA4B4D25625C4500B4D81D /* ForgetpasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetpasswordViewController.swift; sourceTree = "<group>"; };
 		26706B1DECE0ABE8FB8467EE /* Pods-LoginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginApp.release.xcconfig"; path = "Target Support Files/Pods-LoginApp/Pods-LoginApp.release.xcconfig"; sourceTree = "<group>"; };
 		94AB1CDF923D095CF4D6B2E6 /* Pods_LoginApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3634DCD256663D100DB04FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D7096BB3255504D9001E5929 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7096BB6255504D9001E5929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7096BB8255504D9001E5929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 				D7096BC7255504DE001E5929 /* Info.plist */,
 				D7096BBF255504D9001E5929 /* LoginApp.xcdatamodeld */,
 				D7096BE825551115001E5929 /* DashboardViewController.swift */,
-				124DD5052562429000FAEBDF /* GoogleService-Info.plist */,
 				124DD508256250E600FAEBDF /* CreateUserViewController.swift */,
+				D3634DCD256663D100DB04FA /* GoogleService-Info.plist */,
 				12AA4B4D25625C4500B4D81D /* ForgetpasswordViewController.swift */,
 			);
 			path = LoginApp;
@@ -177,7 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7096BC6255504DE001E5929 /* LaunchScreen.storyboard in Resources */,
-				124DD5062562429000FAEBDF /* GoogleService-Info.plist in Resources */,
+				D3634DCE256663D100DB04FA /* GoogleService-Info.plist in Resources */,
 				D7096BC3255504DE001E5929 /* Assets.xcassets in Resources */,
 				D7096BBE255504D9001E5929 /* Main.storyboard in Resources */,
 			);
@@ -389,6 +389,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJQS9YSS64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = LoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -409,11 +410,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJQS9YSS64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = LoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = neu.levy.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
