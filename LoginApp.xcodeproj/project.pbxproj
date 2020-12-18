@@ -10,6 +10,10 @@
 		124DD509256250E600FAEBDF /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124DD508256250E600FAEBDF /* CreateUserViewController.swift */; };
 		12AA4B4E25625C4500B4D81D /* ForgetpasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4B4D25625C4500B4D81D /* ForgetpasswordViewController.swift */; };
 		5CC658278F8C427DE22092AD /* Pods_LoginApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AB1CDF923D095CF4D6B2E6 /* Pods_LoginApp.framework */; };
+		D32BE2B6258AB07E00EE7851 /* AddSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32BE2B5258AB07E00EE7851 /* AddSetViewController.swift */; };
+		D32BE2FC258C49C400EE7851 /* StudySetUITableViewCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32BE2FA258C49C400EE7851 /* StudySetUITableViewCelll.swift */; };
+		D32BE2FD258C49C400EE7851 /* StudySetUITableViewCelll.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32BE2FB258C49C400EE7851 /* StudySetUITableViewCelll.xib */; };
+		D32BE316258C74E900EE7851 /* SutdySetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32BE315258C74E900EE7851 /* SutdySetViewController.swift */; };
 		D3634DCE256663D100DB04FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3634DCD256663D100DB04FA /* GoogleService-Info.plist */; };
 		D7096BB7255504D9001E5929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7096BB6255504D9001E5929 /* AppDelegate.swift */; };
 		D7096BB9255504D9001E5929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7096BB8255504D9001E5929 /* SceneDelegate.swift */; };
@@ -27,6 +31,10 @@
 		12AA4B4D25625C4500B4D81D /* ForgetpasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetpasswordViewController.swift; sourceTree = "<group>"; };
 		26706B1DECE0ABE8FB8467EE /* Pods-LoginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginApp.release.xcconfig"; path = "Target Support Files/Pods-LoginApp/Pods-LoginApp.release.xcconfig"; sourceTree = "<group>"; };
 		94AB1CDF923D095CF4D6B2E6 /* Pods_LoginApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32BE2B5258AB07E00EE7851 /* AddSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSetViewController.swift; sourceTree = "<group>"; };
+		D32BE2FA258C49C400EE7851 /* StudySetUITableViewCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySetUITableViewCelll.swift; sourceTree = "<group>"; };
+		D32BE2FB258C49C400EE7851 /* StudySetUITableViewCelll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudySetUITableViewCelll.xib; sourceTree = "<group>"; };
+		D32BE315258C74E900EE7851 /* SutdySetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutdySetViewController.swift; sourceTree = "<group>"; };
 		D3634DCD256663D100DB04FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D7096BB3255504D9001E5929 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7096BB6255504D9001E5929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +104,10 @@
 				124DD508256250E600FAEBDF /* CreateUserViewController.swift */,
 				D3634DCD256663D100DB04FA /* GoogleService-Info.plist */,
 				12AA4B4D25625C4500B4D81D /* ForgetpasswordViewController.swift */,
+				D32BE2B5258AB07E00EE7851 /* AddSetViewController.swift */,
+				D32BE2FA258C49C400EE7851 /* StudySetUITableViewCelll.swift */,
+				D32BE2FB258C49C400EE7851 /* StudySetUITableViewCelll.xib */,
+				D32BE315258C74E900EE7851 /* SutdySetViewController.swift */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -180,6 +192,7 @@
 				D3634DCE256663D100DB04FA /* GoogleService-Info.plist in Resources */,
 				D7096BC3255504DE001E5929 /* Assets.xcassets in Resources */,
 				D7096BBE255504D9001E5929 /* Main.storyboard in Resources */,
+				D32BE2FD258C49C400EE7851 /* StudySetUITableViewCelll.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +249,11 @@
 				D7096BE925551115001E5929 /* DashboardViewController.swift in Sources */,
 				D7096BB7255504D9001E5929 /* AppDelegate.swift in Sources */,
 				D7096BB9255504D9001E5929 /* SceneDelegate.swift in Sources */,
+				D32BE2B6258AB07E00EE7851 /* AddSetViewController.swift in Sources */,
 				D7096BE525550CF7001E5929 /* Utilities.swift in Sources */,
 				124DD509256250E600FAEBDF /* CreateUserViewController.swift in Sources */,
+				D32BE316258C74E900EE7851 /* SutdySetViewController.swift in Sources */,
+				D32BE2FC258C49C400EE7851 /* StudySetUITableViewCelll.swift in Sources */,
 				12AA4B4E25625C4500B4D81D /* ForgetpasswordViewController.swift in Sources */,
 				D7096BC1255504D9001E5929 /* LoginApp.xcdatamodeld in Sources */,
 			);

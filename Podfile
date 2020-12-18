@@ -6,11 +6,14 @@ target 'LoginApp' do
   use_frameworks!
 
   # Pods for LoginApp
-  pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
   pod 'SwiftSpinner'
   pod 'KeychainSwift'
 end
+
 
 post_install do |installer|
   installer.pods_project.build_configurations.each do |config|
